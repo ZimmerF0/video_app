@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -43,17 +44,19 @@ const Info = styled.div`
 
 const Card = () => {
   return (
-    <Container>
-      <Image src="https://i.pinimg.com/originals/07/f5/24/07f524fd75b463f571235e53888d95ca.png" />
-      <Details>
-        <ChannelImage src="https://i.pinimg.com/originals/d2/b6/d9/d2b6d9f420dd981e2387d7843e75feca.png" />
-        <Texts>
-          <Title>Test Video</Title>
-          <ChannelName>Lama Dev</ChannelName>
-          <Info>660,909 views * 1 day ago</Info>
-        </Texts>
-      </Details>
-    </Container>
+    <Link to="/video/test" style={{ textDecoration: "none" }}>
+      <Container>
+        <Image src="https://i.pinimg.com/originals/07/f5/24/07f524fd75b463f571235e53888d95ca.png" />
+        <Details>
+          <ChannelImage src="https://i.pinimg.com/originals/d2/b6/d9/d2b6d9f420dd981e2387d7843e75feca.png" />
+          <Texts>
+            <Title>Test Video</Title>
+            <ChannelName>Lama Dev</ChannelName>
+            <Info>660,909 views * 1 day ago</Info>
+          </Texts>
+        </Details>
+      </Container>
+    </Link>
   );
 };
 
