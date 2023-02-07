@@ -35,6 +35,7 @@ const Input = styled.input`
   padding: 10px;
   background-color: transparent;
   width: 100%;
+  color: ${({ theme }) => theme.text};
 `;
 
 const Button = styled.button`
@@ -57,7 +58,8 @@ const Links = styled.div`
   margin-left: 50px;
 `;
 const Link = styled.span`
-margin-left: 30px;`;
+  margin-left: 30px;
+`;
 
 const SingIn = () => {
   return (
