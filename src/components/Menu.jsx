@@ -96,7 +96,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
         </Link>
         <Item>
           <HomeIcon />
-          Home
+          Home page
         </Item>
         <Item>
           <ExploreIcon />
