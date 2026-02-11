@@ -57,7 +57,7 @@ const Card = ({ type }) => {
           <Texts>
             <Title>Test Video</Title>
             <ChannelName>Dev prod</ChannelName>
-            <Info>690,999 views * 1 day ago</Info>
+            <Info>690,999 views * 2 week ago</Info>
           </Texts>
         </Details>
       </Container>
