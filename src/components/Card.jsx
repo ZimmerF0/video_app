@@ -55,7 +55,7 @@ const Card = ({ type }) => {
         <Details type={type}>
           <ChannelImage type={type} src="https://i.pinimg.com/originals/d2/b6/d9/d2b6d9f420dd981e2387d7843e75feca.png" />
           <Texts>
-            <Title>Test Video</Title>
+            <Title>Test</Title>
             <ChannelName>Dev prod</ChannelName>
             <Info>690,999 views * 3 day ago</Info>
           </Texts>
